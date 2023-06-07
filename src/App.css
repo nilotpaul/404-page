@@ -1,0 +1,51 @@
+body{
+  min-height: 100%;
+  max-width: 100%;
+}
+
+.container{
+  width: 70%;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: larger;
+}
+
+img{
+  height: 570px;
+  width: auto;
+}
+
+button{
+  height: 45px;
+  width: 45px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-width: 1px;
+  background-color: #F9837F;
+  transition: 300ms;
+  scale: 1.2;
+}
+
+button:hover{
+  background-color: #E4E7F6;
+  transition: 400ms ease-in-out;
+  scale: 1;
+}
+
+.back{
+  border: solid black;
+  border-width: 0 3.5px 3.5px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(135deg);
+  cursor: pointer;
+}
+
+p{
+  padding-bottom: 15px;
+}
